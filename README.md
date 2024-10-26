@@ -23,13 +23,8 @@ The Composition API provides a flexible, modular approach to writing Vue compone
 
 ## Getting Started
 
-1. Install Vue CLI:
-   ```bash
-   npm install -g @vue/cli
-   vue create vue-composition-api-app
-   ```
+1. Install Laravel use Insetia Vue:
 
-2. Set up a Vue 3 project and ensure `<script setup>` is enabled.
 
 ## Ref & Reactive
 
