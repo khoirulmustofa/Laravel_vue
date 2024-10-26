@@ -227,3 +227,5 @@ With this guide, you’ve learned how to use Vue 3’s Composition API with `<sc
 --- 
 
 Happy Coding! 🎉
+
+Khoirul Mustofa
