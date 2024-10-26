@@ -1,4 +1,4 @@
-Here’s the README file in GitHub Markdown format:
+This is a Vue practice project with Laravel Inertia
 
 ---
 
