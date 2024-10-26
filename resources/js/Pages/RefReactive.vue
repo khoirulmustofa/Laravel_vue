@@ -1,4 +1,5 @@
 <script setup>
+import GuestLayout from '@/Layouts/GuestLayout.vue';
 import { reactive, ref } from 'vue';
 
 
@@ -17,11 +18,13 @@ const siswa = reactive({
 </script>
 
 <template>
-    <div class="flex justify-center">
-        <h1 class="align-center font-bold text-xl">Ref() & Reactive() - State Reactivity</h1>
+    <GuestLayout>
+        <div class="flex justify-center">
+            <h1 class="align-center font-bold text-xl">Ref() & Reactive() - State Reactivity</h1>
 
-    </div>
-    <hr>
-    {{ count }} - {{ pesan }} - {{ siswa.name }} - {{ siswa.age }}
+        </div>
+        <hr>
+        {{ count }} - {{ pesan }} - {{ siswa.name }} - {{ siswa.age }}
+    </GuestLayout>
 
 </template>
