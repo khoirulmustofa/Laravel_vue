@@ -25,6 +25,19 @@ The Composition API provides a flexible, modular approach to writing Vue compone
 
 1. Install Laravel use Insetia Vue:
 
+File `web.php` 
+```php
+Route::get('/ref-reactive', [App\Http\Controllers\RefReactiveController::class, 'index'])->name('ref.reactive');
+
+Route::get('/computed-method', [App\Http\Controllers\ComputedMethodController::class, 'index'])->name('computed.method');
+
+Route::get('/built-directive', [App\Http\Controllers\BuiltDirectiveController::class, 'index'])->name('built.directive');
+
+Route::get('/watchers', [App\Http\Controllers\WatchersController::class, 'index'])->name('watchers');
+
+Route::get('/component-prop-event', [App\Http\Controllers\ComponentPropEventController::class, 'index'])->name('component.prop.event');
+```
+
 
 ## Ref & Reactive
 
